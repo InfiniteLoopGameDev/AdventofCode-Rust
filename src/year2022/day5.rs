@@ -43,7 +43,7 @@ pub fn solution() {
         let new_y = i[3].parse::<usize>().unwrap() - 1;
 
         let tmp = cargo_1[y].len() as isize - x as isize;
-        let mut tmp2: usize = 0;
+        let tmp2: usize;
         if tmp < 0 {
             tmp2 = 0;
         } else {
@@ -58,7 +58,7 @@ pub fn solution() {
         cargo_1[y] = cargo_1[y][0..tmp2].to_string();
 
         let tmp = cargo_2[y].len() as isize - x as isize;
-        let mut tmp2: usize = 0;
+        let tmp2: usize;
         if tmp < 0 {
             tmp2 = 0;
         } else {
