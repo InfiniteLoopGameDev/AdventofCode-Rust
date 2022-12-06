@@ -11,6 +11,7 @@ fn main() {
             3 => year2022::day3::solution(),
             4 => year2022::day4::solution(),
             5 => year2022::day5::solution(),
+            6 => year2022::day6::solution(),
             _ => panic!("Invalid argument input"),
         },
         _ => panic!("Invalid argument input"),
